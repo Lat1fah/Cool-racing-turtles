@@ -39,7 +39,7 @@ turtle1.pendown()
 turtle1.forward(100)
 turtle1.left(90)
 turtle1.backward(100)            
-time.sleep(10) #this will pause the program for 10 secs it doesn't immediately close the turtle window. 
+#time.sleep(10) #this will pause the program for 10 secs it doesn't immediately close the turtle window. 
 
 turtle2 = turtle.Turtle()
 
@@ -53,38 +53,38 @@ turtle2.pendown()
 turtle2.forward(100)
 turtle2.left(90)
 turtle2.backward(150)            
-time.sleep(10)
+#time.sleep(10)
 
 turtle3 = turtle.Turtle()
 turtle3.speed(3)
 turtle3.penup()
 turtle3.shape("turtle") 
-turtle3.color("red")
+turtle3.color("yellow")
 turtle3.forward(120)
 turtle3.left(90)
 turtle3.pendown()
 turtle3.forward(100)
 turtle3.left(90)
 turtle3.backward(150)            
-time.sleep(10)
+#time.sleep(10)
 
 turtle4 = turtle.Turtle()
 turtle4.speed(6)
 turtle4.penup()
 turtle4.shape("turtle")  
-turtle4.color("red")
+turtle4.color("purple")
 turtle4.forward(100)
 turtle4.left(90)
 turtle4.pendown()
 turtle4.forward(100)
 turtle4.left(90)
 turtle4.backward(130)            
-time.sleep(10)
+#time.sleep(10)
 
 turtle5 = turtle.Turtle()
 turtle5.speed(10)
 turtle5.penup()
-turtle5.shape("turtle") 
+turtle5.shape("pink") 
 turtle5.color("red")
 turtle5.forward(170)
 turtle5.left(90)
@@ -92,14 +92,14 @@ turtle5.pendown()
 turtle5.forward(100)
 turtle5.left(90)
 turtle5.backward(100)            
-time.sleep(10)
+#time.sleep(10)
 
 
 
 #turtle speeds according to google. fastest-0, fast-10, normal-6, slow-3, slowest-1
 # the turtle is now the arrow pointer on the window.
 #11:05 pm Im only getting one turtle on the screen instead of 5. 11/20/2026
-
+#11:12 pm I commented the sleep. So the turtles work. one of them is also too fast I need to slow down the speeds.
 
 
 
